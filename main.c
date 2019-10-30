@@ -12,9 +12,9 @@ int main() {int i;
 scanf("%d",&i);
        if(i%2==0)
        {
-        printf("no is even");
+        printf("no is even:%d",i);
        }else{
-       printf("no is odd");
+       printf("no is odd:%d",i);
        }
     
   }
