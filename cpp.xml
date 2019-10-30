@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.89"/>
+    <errors>
+        <error id="moduloAlwaysTrueFalse" severity="warning" msg="Comparison of modulo result is predetermined, because it is always less than 2." verbose="Comparison of modulo result is predetermined, because it is always less than 2.">
+            <location file="main (5).c" line="13"/>
+        </error>
+    </errors>
+</results>
